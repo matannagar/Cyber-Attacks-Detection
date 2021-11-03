@@ -1,25 +1,33 @@
-# Methods for Detecting Cyber Attacks
+## Network Attack Outlier/Anomaly Detection
 
-The course is based on understanding the building blocks of learning systems and their implementation in the areas of defense
-Cyber. The purpose of the course is to improve the students' research skill and allow them to experiment
-In defined research during the course and free and in-depth research on a variety of topics within a project
-The summary.<br>
-The course highlights the difficulty and challenges that exist in the areas of cyber defense, performing in a wide wall on
-Possible threats and solutions through the use of learning systems.<br>
-The cyber world is a magical and challenging world and the aim of the course is to make exposure to this world in the process
-Strengthening students' personal research abilities. <br>
-The course will perform a damage detection tournament and the implementation of academic articles as a summary project.
+In this dataset, there are attacks that you will need to detect. This data is network data from physical
+hosts. Can you find which hosts are anomalous/ outliers?
+Questions:
+1. Data exploration- what have you learned?
+2. Which algorithms group are suitable for this task and why?
+3. Please create a report that will explain how you solved the problem?
+  a. What is the approach you tried? Why them?
+  b. How do you know the algorithm is good?
+  <br>
+  
+# File descriptions 
 
-| Lectures | Topics                                                               |
-|----------|----------------------------------------------------------------------|
-| 1        | Introduction - Using machine learning in the world of cyber security |
-| 2        | Introduction to learning systems                                     |
-| 3+4      | Introduction to learning systems 2                                   |
-| 5        | Anomaly Detection                                                    |
-| 6        | Malicious recognizing with deep-learning                             |
-| 7        | Data analysis, data-collection and features-vector creation          |
-| 8        | Use of learning systems For encrypted information analysis           |
-| 9        | Class competition and presentation Achievements                      |
-| 10       | Ensemble methods in cyber Security                                   |
-| 11       | DLP                                                                  |
-| 12       | Final Project                                                        |
+● Each record has 4 fields (features) that are described in the "Data fields" section. Your task
+if you accept to take it is to find the attacks in the data. 
+<br>
+
+# Data fields
+● record ID - The unique identifier for each connection record.<br>
+● duration_ This feature denotes the number of seconds (rounded) of the connection. For
+example, a connection for 0.17s or 0.3s would be indicated with a “0” in this field.<br>
+● src_bytes This field represents the number of data bytes transferred from the source to the
+destination (i.e., the number of out-going bytes from the host).<br>
+● dst_bytes This feature represents the number of data bytes transferred from the destination
+to the source (i.e., the number of bytes received by the host).<br>
+# What to submit
+● CSV with:<br>
+○ record ID - The unique identifier for each connection record.<br>
+○ is_anomaly?_ This binary field indicates your detection result: 0 denotes the
+transmission is normal, 1 indicates anomalous.<br>
+● Summary Repor + answered questions ( no more than two pages).<br><br><br>
+Good Luck
